@@ -1,0 +1,105 @@
+body {
+    background-color: maroon;
+}
+
+#header-nav {
+    background-color: blue;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h3{
+    font-family: serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;    
+}
+
+h1 {
+	text-align: center;
+    width: 100%;
+    color: #FFF;
+}
+
+section {
+	background-color: #424242;
+	border: 1px solid black;
+}
+
+
+
+.container {
+	margin-top: 70px
+}
+
+.content {
+	margin-top: 50px;
+	padding: 20px;
+}
+
+
+
+h2 {
+		text-align: center;
+        margin-top: 5px;
+        color: #FFF;
+}
+
+
+/* Desktop View */
+@media (min-width: 992px) {
+
+	section {
+		background-color: #424242;
+	    border: 1px solid black;
+		width: 100%;
+		float: left;
+	
+		position: relative;
+		color: white;
+        font-family: sans-serif;
+        margin-top: 5px;
+	}
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section:nth-child(1), section:nth-child(2) {
+		width: 47%;
+		margin: 1.5%;
+		float: left;
+		position: relative;
+		color: white;
+		font-family: sans-serif;
+	}
+	section:last-child {
+		clear: both;
+		width: 97%;
+		position: relative;
+		margin: 1.5%;
+		color: white;
+		font-family: sans-serif;
+	}
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+	section {
+		position: relative;
+		width: 90%;
+		margin: 5%;
+		color: white;
+		font-family: sans-serif;
+	}
+}
+/* footer */
+footer {
+	background-color: black;
+	margin-top: 35em;
+	height: 35px;
+	}
+	footer div{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	}	
